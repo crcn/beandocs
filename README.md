@@ -63,8 +63,14 @@ router.on({
 ```javascript
 
 {
+	"title": "My Project Title",
+	"descscription": "My Project Description",
+	"template":"template name or template/path",
 	"meta": {
-		"api": "Public to the world and over HTTP."
+		"descriptions": {
+			"api": "Public to the world and over HTTP."
+		},
+		"public": ["api","public","http"]
 	},
 	"method" {
 		"pull": "Makes a request for current data.",
