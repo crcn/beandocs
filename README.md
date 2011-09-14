@@ -5,7 +5,7 @@ Beandocs - documentation engine for beanpole
 Usage
 -----
 
-beandocs -i /path/to/project -o /output/directory -t /template
+	beandocs -i /path/to/project -o /output/directory -t /template
 
 Syntax
 ------
