@@ -10,10 +10,25 @@ beandocs -i /path/to/project -o /output/directory -t /template
 Syntax
 ------
 
-/**
- * <My Super Long Description Here>
- * param <param name> <param description>
- */
+```javascript
+
+
+ router.on({
+ 	
+ 	/**
+	 * <My Super Long Description Here>
+	 * param <param name> <param description>
+	 */
+
+	
+	'pull my/api/method/with/a/:param': function()
+	{
+		
+	}
+
+ })
+
+ ````
 
 
 
