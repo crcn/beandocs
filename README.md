@@ -17,7 +17,9 @@ Syntax
  	
  	/**
 	 * <My Super Long Description Here>
-	 * param <param name> <param description>
+	 * @param <param name> <param description>
+	 * @return <app return description>
+	 * @see <ref to other documentation>
 	 */
 
 	
@@ -45,7 +47,7 @@ router.on({
 	
 	/**
 	 * Says hello world to the user
-	 * param name the name of the user to say hello to
+	 * @param name the name of the user to say hello to
 	 */
 
 	'pull -api say/hello/:name': function()
