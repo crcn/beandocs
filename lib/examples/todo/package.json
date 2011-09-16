@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
-        "beandocs": "./bin/build"
+        "beet": "./bin/beandocs"
     },
     "repository": {
         "type": "git",
@@ -12,11 +12,9 @@
     },
     "main": "./lib/index.js",
     "dependencies": {
-        "node-fs":"*",
         "beanpole":"*",
         "structr":"*",
-        "ejs":"*",
-        "findit":"*",
+        "gumbo":"*",
         "vine":"*"
     },
     "os": [

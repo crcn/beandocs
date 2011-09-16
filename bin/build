@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+var args = process.argv.concat(),
+ops = {},
+beandocs = require('../lib');
+
+
+while(args.length)
+switch(args.shift())
+{
+	case "-generator":
+	case "-g":
+		ops.template = args.shift();	
+		break;	
+
+	case "-input":
+	case "-i":
+		ops.input = args.shift();
+		break;
+	
+	case "-output":
+	case "-o":
+		ops.output = args.shift();
+		break;
+}
+
+beandocs.generate(ops, ops.output);
