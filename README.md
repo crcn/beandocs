@@ -45,7 +45,7 @@ var router = require('beanpole').router();
 
 router.on({
 	
-	/**
+	/**!
 	 * Says hello world to the user
 	 * @param name the name of the user to say hello to
 	 */
