@@ -5,6 +5,11 @@
 - WADL
 - README files (use to generate docs online)
 
+### Live examples
+
+- [Spice.io web console](https://apigee.com/architectd/embed/console/spiceio)
+- [Spice.io docs](https://github.com/spiceapps/spice.io)
+
 ### Usage     
 
 	beandocs -i /path/to/project -o /output/directory -t /template
