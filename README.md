@@ -1,14 +1,15 @@
-Beandocs - documentation engine for beanpole
---------------------------------------------
+### Beandocs - documentation engine for beanpole          
+             
+#### Built-in templates    
 
+- WADL
+- README files (use to generate docs online)
 
-Usage
------
+### Usage     
 
 	beandocs -i /path/to/project -o /output/directory -t /template
 
-Syntax
-------
+### Syntax  
 
 ```javascript
 
@@ -34,8 +35,7 @@ Syntax
 
 
 
-Example:
---------
+### Example
 
 Your beanpole file:
 
