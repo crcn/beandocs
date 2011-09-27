@@ -1,7 +1,7 @@
 {
     "name":"beandocs",
     "descriptions": "Documentation engine for beanpole",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
         "beandocs": "./bin/build"
@@ -17,7 +17,8 @@
         "structr":"*",
         "ejs":"*",
         "findit":"*",
-        "vine":"*"
+        "vine":"*",
+        "jstoxml":"*"
     },
     "os": [
         "linux",
