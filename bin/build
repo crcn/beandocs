@@ -2,7 +2,8 @@
 
 var args = process.argv.concat(),
 ops = {},
-beandocs = require('../lib');
+beandocs = require('../lib'),
+fs = require('fs');
 
 
 while(args.length)
@@ -16,6 +17,24 @@ switch(args.shift())
 	case "-input":
 	case "-i":
 		ops.input = args.shift();
+		break; 
+		
+	case "-beans":
+	case "-b":      
+		var pkg = args.shift();
+		
+		var bn = JSON.parse(fs.readFileSync(pkg,'utf8')),
+		beans = [];
+		
+		for(var name in bn.beans)
+		{
+			beans.push(name);
+		}                    
+		
+		ops.beans = beans;   
+		                   
+		console.log('including beans %s ', beans.join('\n'));
+		
 		break;
 	
 	case "-output":
