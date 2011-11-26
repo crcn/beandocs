@@ -2,13 +2,13 @@
     "name":"beandocs",
     "descriptions": "Documentation engine for beanpole",
     "version": "0.0.2",
-    "author": "Craig Condon <craig@spiceapps.com>",
+    "author": "Craig Condon <craig@crcn.com>",
     "bin": {
         "beandocs": "./bin/build"
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/spiceapps/beandocs.git"
+        "url": "http://github.com/crcn/beandocs.git"
     },
     "main": "./lib/index.js",
     "dependencies": {
