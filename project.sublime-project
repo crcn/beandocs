@@ -2,7 +2,22 @@
 	"folders":
 	[
 		{
-			"path": "/Users/craig/.cupboard/projects/beandocs"
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","beandocs"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","beandocs"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","beandocs"]
 		}
 	]
 }
