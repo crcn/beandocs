@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/crcn/beandocs.png)](http://travis-ci.org/crcn/beandocs)
 ### Beandocs - documentation engine for beanpole          
              
 #### Built-in templates    
